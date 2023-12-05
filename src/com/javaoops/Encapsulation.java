@@ -1,6 +1,6 @@
 package com.javaoops;
 
-public class Encapsulation {
+class Encapsule{
 	private String name;
 	
 	public String getName() {
@@ -8,5 +8,13 @@ public class Encapsulation {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+}
+
+public class Encapsulation {
+	public static void main(String args[]) {
+		Encapsule enc = new Encapsule();
+		enc.setName("Harsh");
+		System.out.println(enc.getName());
 	}
 }
